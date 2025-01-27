@@ -15,7 +15,7 @@ import static com.codeborne.selenide.Selenide.$x;
 
 public class CardDeliveryTest {
 
-    private ApplicationPage applicationPage = new ApplicationPage();
+    private final ApplicationPage applicationPage = new ApplicationPage();
 
     @BeforeEach
     void openWebpage() {
